@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">Dark Mode</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello, I'm <span class="highlight">Nalini R</span></h1>
+    <p class="subtext">A passionate Web Developer | Tech Enthusiast | Fast Learner</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a student developer who loves building beautiful websites, learning new technologies, and solving real-world problems. I'm skilled in HTML, CSS, C, C++ and the beginner in the skills such as JavaScript, Java, Python, also actively exploring frameworks like Express.js and backend technologies like Node.js. A beginner Ethical Hacker in the field of specializing in it.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <h4>HTML, CSS, JS</h4>
+        <p>A personal portfolio to showcase my projects and contact details with dark/light theme toggle.</p>
+      </div>
+      <div class="project-card">
+        <h3>Restaurant Management</h3>
+        <h4>HTML, CSS, JS, Node.js with Express.js, MySQL</h4>
+        <p>An interactive web application for the restaurants to manage the tasks such as billin, service and maintain orders along with the employees details. This application provides the multiple payment options there by making it suitable for the real-time application in its usage.</p>
+        <a href="https://dbms-rms-project.onrender.com">View Project →</a>
+      </div>
+      <!--<div class="project-card">
+        <h3>Chat App</h3>
+        <h4>Node.js, Socket.io</h4>
+        <p>A real-time chat application that lets multiple users communicate instantly over websockets.</p>
+        <a href="#">View Project →</a>
+      </div>
+    </div>-->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Nalini R. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
